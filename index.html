@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Fylo data storage component | SBA326</title>
+</head>
+
+<body>
+
+  <!-- Using Bootstrap utility classes for layout and spacing -->
+  <main class="d-flex flex-column align-items-center justify-content-center min-vh-100">
+    <!-- Bootstrap's flexbox utilities are used here for centering content both vertically and horizontally -->
+    <h1 class="sr-only">Fylo data storage</h1>
+
+    <!-- Bootstrap classes for background color, rounded corners, padding, and margin -->
+    <div class="top bg-dark rounded-pill p-4 mb-4">
+      <!-- Cached using querySelector -->
+      <img class="logo mb-3" src="images/logo.svg" alt="Fylo.">
+      <!-- Bootstrap's list-inline class for horizontal list -->
+      <ul class="functions list-inline">
+        <!-- Bootstrap classes for list items and buttons -->
+        <li class="list-inline-item">
+          <button aria-label="Info" class="btn btn-dark rounded-circle"><img src="images/icon-document.svg" alt="" aria-hidden="true"></button>
+        </li>
+        <li class="list-inline-item">
+          <button aria-label="Files" class="btn btn-dark rounded-circle"><img src="images/icon-folder.svg" alt="" aria-hidden="true"></button>
+        </li>
+        <li class="list-inline-item">
+          <button aria-label="Upload" class="btn btn-dark rounded-circle"><img src="images/icon-upload.svg" alt="" aria-hidden="true"></button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Bootstrap classes for background color, rounded corners, padding, and text alignment -->
+    <div class="bottom bg-dark rounded p-4 text-center">
+      <!-- Using Bootstrap's font-weight-bold class for bold text -->
+      <p class="data-text">You’ve used <span class="data font-weight-bold">815 GB</span> of your storage</p>
+
+      <!-- Using Bootstrap's margin-bottom class for spacing -->
+      <div class="storage-display mb-3">
+        <div class="progress-bar"></div>
+        <!-- Using Bootstrap's flexbox utilities for space-between alignment -->
+        <div class="data-display d-flex justify-content-between">
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </div>
+      </div>
+
+      <!-- Using Bootstrap classes for background color, rounded corners, padding, and positioning -->
+      <div class="data-bubble bg-white rounded-pill p-3 position-relative">
+        <!-- Using Bootstrap's flexbox utilities for centering content and margin utilities for spacing -->
+        <p class="data-bubble-text d-flex align-items-center justify-content-center m-0">
+          <span class="h2 text-primary mb-0">185</span> GB Left
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Bootstrap JavaScript and dependencies (optional for Bootstrap components that require JavaScript) -->
+  <!-- Ensure the webpage displays without errors -->
+</body>
+
+</html>
