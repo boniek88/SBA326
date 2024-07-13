@@ -5,14 +5,14 @@ Overview
 This project is a frontend implementation of the Fylo data storage component using HTML and CSS. The webpage showcases the usage of Bootstrap utility classes and components along with custom CSS for styling. The main features include a logo, navigation buttons, a data usage display, and an animated progress bar.
 
 Table of Contents
-  Technologies Used
-  Features
-  Usage
+  (Technologies Used,
+  Features,
+  Usage)
 
 Technologies Used
-  HTML5
-  CSS3
-  Bootstrap 5
+  (HTML5,
+  CSS3,
+  Bootstrap 5)
 
 Features
 
