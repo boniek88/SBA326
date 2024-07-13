@@ -17,6 +17,7 @@ Technologies Used
 Features
 
   HTML
+  
     Valid and appropriate HTML throughout the implementation:
          The HTML is structured with semantic tags and appropriate attributes.
     
@@ -27,6 +28,7 @@ Features
          Uses Bootstrap components for buttons and grid layout.
 
   CSS
+  
     Custom Styling:
          Custom styles are used for elements that Bootstrap does not fully cover.
     
